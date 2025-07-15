@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 10lvh;
+  height: 700px;
+  width: 500px;
+  box-shadow: 1px 2px 12px -5px rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.titulo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 2px solid black;
+}
+
+.formulario {
+  display: grid;
+  grid-template-rows: 80px 80px 80px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.botao {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  height: 50px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: rgb(233, 233, 233);
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.botao:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(233, 233, 233);
+  transition: 0, 5s;
+}
+.formulario input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.842);
+  color: rgb(0, 0, 0);
+}
+
+.painel {
+  background-color: black;
+  margin: 40px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
