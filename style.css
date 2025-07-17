@@ -11,7 +11,7 @@ body {
   margin-top: 10lvh;
   height: 700px;
   width: 500px;
-  box-shadow: 1px 2px 12px -5px rgba(0, 0, 0, 0.507);
+  box-shadow: 1px 2px 12px -5px rgba(0, 0, 0, 0.678);
   border-radius: 10px;
   display: grid;
   grid-template-rows: auto auto 1fr;
@@ -68,7 +68,7 @@ body {
   border-radius: 10px;
   padding-left: 10px;
   font-size: 1.5em;
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 
@@ -79,6 +79,7 @@ body {
   border-radius: 12px;
   color: white;
   padding: 20px;
-  font-size: 1.5em;
+  padding-top: 60px;
+  font-size: 1.8em;
   text-align: center;
 }
